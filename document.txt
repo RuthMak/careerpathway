@@ -1,39 +1,39 @@
 Project Overview:
-    A single-page web app designed to provide users with information about different career opportunities in Computer Information Technology (CIT).
-    Also, the app have an interactive quiz to assess user understanding of the CIT fields.
+    A single-page web app designed to provide users with information about different career paths in Computer Information Technology (CIT).
+    Also, the app have an interactive quiz to to test user understanding of the CIT paths.
 
 Career Opportunities Section:
-    Four career areas represented as clickable cards.
-    Each card contains an image, brief description, and a "Learn More" link.
-    Clicking the "Learn More" link opens a prompt with job roles specific to that concentration.
+added four career paths that are clickable
+    The card contains  images, description, and a "Learn More" link.
+    The "Learn More" link opens a prompt with job roles specific to that career path.
 
 
 LESS/SCSS Implementation:
     SCSS is used for consistent styling with Purdue colors and for defining reusable variables.
-    $boilermaker-gold: Highlight color
-    $boilermaker-brown: Main brand color
-    $light-gray: Background color
+    $boilermaker-gold
+    $boilermaker-brown
+    $light-gray
 
 Responsiveness:
-    Bootstrap grid system and media queries ensure responsive design.
+    Bootstrap grid system and media queries added responsive design.
 
 Hamburger Menu:
-    A hamburger menu toggles the navigation links for small screens.
+    A hamburger menu toggles the navigation links for smaller screens.
 
 Favicon:
-    The favicon is a circular icon with "CIT" centered, representing the CIT brand.
+    The favicon is a circle icon with CIT in the center, showing the CIT brand.
 
 Bootstrap Features:
-    Responsive layout using Bootstrap grid system.
-    Navbar with a hamburger menu for small screens.
+    A responsive layout using Bootstrap grid system.
+    The navbar has a hamburger menu for smaller screens.
 
 Accessibility:
     Semantic tags (header, main, footer) and ARIA roles included for assistive technologies.
 
 Interactive Quiz:
-    10 multiple-choice questions related to CIT concentrations.
-    Immediate feedback for correct/incorrect answers.
-    Final score displayed at the end of the quiz.
+    10 multiple-choice questions related to CIT Pathways.
+    Quick feedback for correct/incorrect answers.
+    Final score is shown at the end of the quiz.
 
 File Structure:
     index.html: Main structure and content of the page.

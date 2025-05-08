@@ -1,0 +1,110 @@
+$boilermaker-gold: #EBD99F;
+$black: #000000;
+$boilermaker-brown: #8E6F3E;  
+$light-gray: #f8f9fa;
+
+html, body {
+  height: 100%;
+}
+body {
+  background-color: $light-gray;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  flex: 1 0 auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+nav.navbar {
+  background-color: $boilermaker-brown;
+  .navbar-brand h1 {
+    color: #fff; 
+    margin: 0;
+  }
+  .nav-link {
+    color: #C4BFC0;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.career-card {
+  background-color: #FFF;
+  border: 1px solid $boilermaker-gold;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  text-align: center;
+  overflow: hidden;
+}
+
+.career-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  background-color: $light-gray;
+}
+
+.career-card img.career-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 1px solid $boilermaker-gold;
+  margin-bottom: 10px;
+}
+
+.career-card h3 {
+  color: $boilermaker-brown;
+  font-size: 1.2rem;
+}
+
+.career-card p {
+  color: $black;
+  font-size: 0.95rem;
+}
+
+.learn-more-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: $brand-brown;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.learn-more-link:hover {
+  color: $boilermaker-gold;
+}
+
+section#careers h2, 
+section#quiz h2 {
+  color: $black;
+}
+section#careers h3 {
+  color: $black;
+  margin-top: 1rem;
+}
+section#careers p,
+section#quiz p {
+  color: $black;
+}
+
+.card {
+  border-top: 0.25rem solid $boilermaker-gold; 
+}
+#questionText {
+  margin-bottom: 1rem;
+}
+#feedback {
+  color: $black;
+}
+
+footer {
+  background-color: $boilermaker-brown;
+  text-align: center;
+}

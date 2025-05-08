@@ -1,0 +1,43 @@
+Project Overview:
+    A single-page web app designed to provide users with information about different career opportunities in Computer Information Technology (CIT).
+    Also, the app have an interactive quiz to assess user understanding of the CIT fields.
+
+Career Opportunities Section:
+    Four career areas represented as clickable cards.
+    Each card contains an image, brief description, and a "Learn More" link.
+    Clicking the "Learn More" link opens a prompt with job roles specific to that concentration.
+
+
+LESS/SCSS Implementation:
+    SCSS is used for consistent styling with Purdue colors and for defining reusable variables.
+    $boilermaker-gold: Highlight color
+    $boilermaker-brown: Main brand color
+    $light-gray: Background color
+
+Responsiveness:
+    Bootstrap grid system and media queries ensure responsive design.
+
+Hamburger Menu:
+    A hamburger menu toggles the navigation links for small screens.
+
+Favicon:
+    The favicon is a circular icon with "CIT" centered, representing the CIT brand.
+
+Bootstrap Features:
+    Responsive layout using Bootstrap grid system.
+    Navbar with a hamburger menu for small screens.
+
+Accessibility:
+    Semantic tags (header, main, footer) and ARIA roles included for assistive technologies.
+
+Interactive Quiz:
+    10 multiple-choice questions related to CIT concentrations.
+    Immediate feedback for correct/incorrect answers.
+    Final score displayed at the end of the quiz.
+
+File Structure:
+    index.html: Main structure and content of the page.
+    styles.scss: SCSS file for styling and theme.
+    styles.css: Compiled CSS file from SCSS.
+    script.js: Handles interactive elements (quiz, Learn More links).
+    images/: Contains images for each career path.

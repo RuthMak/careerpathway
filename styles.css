@@ -1,0 +1,83 @@
+/* styles.scss - main SCSS stylesheet for CIT Career Pathways */
+/* Purdue color scheme variables */
+/* Global layout and typography */
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Make main content flex: 1 to push footer to bottom if content is short */
+main {
+  flex: 1 0 auto;
+}
+
+/* Smooth scrolling for anchor link navigation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar styling */
+nav.navbar {
+  background-color: #8E6F3E;
+}
+nav.navbar .navbar-brand h1 {
+  color: #fff; /* Ensure the title text is white for contrast */
+  margin: 0;
+}
+nav.navbar .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+nav.navbar .nav-link:hover {
+  color: #fff;
+}
+
+/* Section content styling */
+section {
+  /* Padding (top and bottom) is applied via .py-5 in HTML for spacing */
+}
+
+section#careers h2,
+section#quiz h2 {
+  color: #000000;
+  /* You can add additional styling for section headings if desired */
+}
+
+section#careers h3 {
+  /* Subsection headings for each career path */
+  color: #000000;
+  margin-top: 1rem;
+}
+
+section#careers p,
+section#quiz p {
+  color: #000000;
+}
+
+/* Quiz card and feedback styling */
+.card {
+  border-top: 0.25rem solid #CFB991; /* Purdue gold accent on card */
+}
+
+#questionText {
+  margin-bottom: 1rem;
+}
+
+#feedback {
+  /* Feedback text (appears at end of quiz) */
+  color: #000000;
+}
+
+/* Footer styling */
+footer {
+  background-color: #8E6F3E;
+  /* text-light class in HTML already sets text to a light color */
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
